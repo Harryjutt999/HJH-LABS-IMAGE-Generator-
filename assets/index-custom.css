@@ -1,0 +1,67 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+  background-color: #000; /* Black background */
+  color: #87CEEB; /* Sky Blue text */
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #87CEEB; /* Sky Blue */
+  margin-bottom: 15px;
+}
+
+/* Buttons */
+button {
+  background-color: #87CEEB; /* Sky Blue */
+  color: #000; /* Black text */
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+button:hover {
+  background-color: #1e90ff; /* Darker sky blue */
+  color: #fff;
+}
+
+/* Input fields */
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #87CEEB;
+  background-color: #111;
+  color: #87CEEB;
+}
+
+/* Container / Sections */
+section {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #87CEEB;
+  border-radius: 8px;
+  background-color: #111;
+}
+
+/* Links */
+a {
+  color: #87CEEB;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  }
