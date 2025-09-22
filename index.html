@@ -1,24 +1,28 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>HJH Image Generator</title>
-  <script type="module" crossorigin src="assets/index-D4zL4Naw.js"></script>
+  <link rel="icon" type="image/png" href="https://i.postimg.cc/dVWsQpKw/IMG-20250913-WA0039.jpg" />
   <link rel="stylesheet" href="assets/index-custom.css" />
 </head>
 <body>
+  <div class="container">
+    <div class="logo">
+      <img src="https://i.postimg.cc/dVWsQpKw/IMG-20250913-WA0039.jpg" alt="HJH Logo">
+    </div>
+    <h1>HJH Image Generator</h1>
+    <p>Enter your prompt below to generate amazing AI images ✨</p>
 
-  <!-- Logo Section -->
-  <div style="text-align:center; margin: 20px 0;">
-    <img src="https://i.postimg.cc/dVWsQpKw/IMG-20250913-WA0039.jpg" 
-         alt="HJH Logo" 
-         style="width:120px; border-radius:12px; box-shadow:0 0 10px #87CEEB;" />
+    <input type="text" placeholder="Type your prompt here..." />
+    <button>Generate Image</button>
+
+    <div class="preview">
+      <img src="https://via.placeholder.com/600x400/000000/87CEEB?text=Generated+Image+Preview" alt="Generated Image">
+    </div>
   </div>
 
-  <!-- Root App -->
-  <div id="root"></div>
-
+  <script type="module" crossorigin src="assets/index-D4zL4Naw.js"></script>
 </body>
 </html>
